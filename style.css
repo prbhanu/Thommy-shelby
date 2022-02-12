@@ -1,0 +1,31 @@
+body{
+	background-color: #292827;
+}
+h1{
+	text-align: center;
+	color: #11408c;
+	font-family: 'Inconsolata', monospace;
+}
+.DiscordLogo{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  transition-duration: 2s;
+  transition-property: transform;
+}
+.DiscordLogo:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+h2{
+	text-align: center;
+	color: white;
+	font-family: 'Inconsolata', monospace;
+}
+.DiscordWidget{
+  padding-left: 480px;
+}
